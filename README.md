@@ -1,6 +1,7 @@
-﻿# GetRichClickerGame
+﻿# Get Rich! Clicker Game
 How much rich you can get?
-Start to get rich mining golds, get bigger and have some miners to help
+<br>
+Start to get rich mining golds, get bigger and have some miners to help!
 <br>
 ## Changelog - 25/03/2023
 * Added the click feature at the gold
