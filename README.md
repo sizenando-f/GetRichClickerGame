@@ -1,12 +1,12 @@
 ﻿# Get Rich! Clicker Game
-How much rich you can get?
+How rich can you get?
 <br>
 Start to get rich mining golds, get bigger and have some miners to help!
 <br>
 ## Changelog - 27/03/2023
 * Bug fixes: 
   - Negative money fixed
-  - Money check at miner algorithm added
+  - Money checker at miner algorithm added
  * Gold machine added
  * Miner gold frequency increased
  * Header and footer messages added
@@ -15,6 +15,9 @@ Start to get rich mining golds, get bigger and have some miners to help!
 * Evolve your pickaxe and get more gold
 * Hire new miners to help you
 * Give a raise to your miners and they'll help you more
+## Troubleshooting
+If you can't open the project by just clicking in the "index.html" archive, maybe you have to open this project with Live Server in Visual Studio Code
 <br>
-Simple, objective and intuitive interface
+<br>
+A simple, objective and intuitive interface
 <br>
