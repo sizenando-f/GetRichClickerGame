@@ -20,88 +20,125 @@
     <title>Get Rich!</title>
   </head>
   <body class="p-1">
-    <div class="container p-3">
-      <!-- Title and score -->
-      <header
-        class="container-fluid d-flex py-1 px-5 align-items-center justify-content-between flex-wrap game-header"
-      >
-        <h1>GET RICH!</h1>
-        <span>MONEY: <span id="score-label">0</span></span>
+    <div class="container-fluid general">
+      <header class="text-center mt-2">
+        <p>The secret to sucess is consistency</p>
       </header>
-      <!-- Main button -->
-      <div class="coin-bar-img" id="main-btn-gold-bar">
-        <img
-          src="https://cdn2.iconfinder.com/data/icons/outlined-valuable-items/200/monetary_gold_bar-512.png"
-          alt="coin-bar-img"
-          class="img-fluid"
-        />
-      </div>
-      <!-- Shop area -->
-      <div
-        class="shop-area container-fluid d-flex justify-content-center p-1 flex-wrap"
-      >
-        <!-- User shop -->
-        <div class="user-shop py-2 px-2">
-          <h4>SHOP</h4>
-          <div
-            class="skill-div d-flex justify-content-around align-items-center"
-            id="click-value"
-          >
-            <label for="btn-upgrade-click" class="upgrade-title-label py-2 px-2"
-              >UPGRADE PICKAXE</label
+      <div class="container p-3">
+        <!-- Title and score -->
+        <header
+          class="container-fluid d-flex py-1 px-5 align-items-center justify-content-between flex-wrap game-header"
+        >
+          <h1>GET RICH!</h1>
+          <span>MONEY: <span id="score-label">0</span></span>
+        </header>
+        <!-- Main button -->
+        <div class="coin-bar-img" id="main-btn-gold-bar">
+          <img
+            src="https://cdn2.iconfinder.com/data/icons/outlined-valuable-items/200/monetary_gold_bar-512.png"
+            alt="coin-bar-img"
+            class="img-fluid"
+          />
+        </div>
+        <!-- Shop area -->
+        <div
+          class="shop-area container-fluid d-flex justify-content-center p-1 flex-wrap"
+        >
+          <!-- User shop -->
+          <div class="user-shop py-2 px-2">
+            <h4>SHOP</h4>
+            <div
+              class="skill-div d-flex justify-content-around align-items-center"
+              id="click-value"
             >
-            <label>LEVEL: <span id="pickaxe-level">1</span></label>
-            <label>PRICE: <span id="pickaxe-price">30</span></label>
-            <button
-              id="btn-upgrade-click"
-              type="button"
-              class="btn btn-warning"
+              <label
+                for="btn-upgrade-click"
+                class="upgrade-title-label py-2 px-2"
+                >PICKAXE</label
+              >
+              <label>LEVEL: <span id="pickaxe-level">1</span></label>
+              <label>PRICE: <span id="pickaxe-price">30</span></label>
+              <button
+                id="btn-upgrade-click"
+                type="button"
+                class="btn btn-warning"
+              >
+                UPGRADE
+              </button>
+            </div>
+          </div>
+          <!-- Miner shop -->
+          <div class="miner-shop py-2 px-2">
+            <h4>MINER</h4>
+            <!-- Miner hire -->
+            <div
+              class="skill-div d-flex justify-content-around align-items-center mb-3"
+              id="click-value"
             >
-              UPGRADE
-            </button>
+              <label
+                for="btn-upgrade-miner"
+                class="upgrade-title-label py-2 px-2"
+                >MINER</label
+              >
+              <label>MINERS: <span id="miner-level">0</span></label>
+              <label>PRICE: <span id="miner-price">500</span></label>
+              <button
+                id="btn-upgrade-miner"
+                type="button"
+                class="btn btn-warning"
+              >
+                HIRE
+              </button>
+            </div>
+            <!-- Miner raise -->
+            <div
+              class="skill-div d-none justify-content-around align-items-center"
+              id="raise-div"
+            >
+              <label
+                for="btn-raise-upgrade"
+                class="upgrade-title-label py-2 px-2"
+                >MINER RAISE</label
+              >
+              <label>RAISES: <span id="raise-level">0</span></label>
+              <label>PRICE: <span id="raise-price">200</span></label>
+              <button
+                id="btn-raise-upgrade"
+                type="button"
+                class="btn btn-warning"
+              >
+                RAISE
+              </button>
+            </div>
+            <!-- Gold machine -->
+            <div
+              class="skill-div d-flex justify-content-around align-items-center mt-3"
+              id="gold-machine-div"
+            >
+              <label
+                for="btn-gold-machine"
+                class="upgrade-title-label py-2 px-2"
+                >GOLD MACHINE</label
+              >
+              <label>MACHINES: <span id="gold-machine-level">0</span></label>
+              <label>PRICE: <span id="gold-machine-price">5000</span></label>
+              <button
+                id="btn-gold-machine"
+                type="button"
+                class="btn btn-warning"
+              >
+                BUY
+              </button>
+            </div>
           </div>
         </div>
-        <!-- Miner shop -->
-        <div class="miner-shop py-2 px-2">
-          <h4>MINER</h4>
-          <!-- Miner hire -->
-          <div
-            class="skill-div d-flex justify-content-around align-items-center mb-3"
-            id="click-value"
-          >
-            <label for="btn-upgrade-miner" class="upgrade-title-label py-2 px-2"
-              >HIRE A MINER</label
-            >
-            <label>MINERS: <span id="miner-level">0</span></label>
-            <label>PRICE: <span id="miner-price">500</span></label>
-            <button
-              id="btn-upgrade-miner"
-              type="button"
-              class="btn btn-warning"
-            >
-              HIRE
-            </button>
-          </div>
-          <!-- Miner raise -->
-          <div
-            class="skill-div d-none justify-content-around align-items-center"
-            id="raise-div"
-          >
-            <label for="btn-raise-upgrade" class="upgrade-title-label py-2 px-2"
-              >GIVE A RAISE</label
-            >
-            <label>RAISES: <span id="raise-level">0</span></label>
-            <label>PRICE: <span id="raise-price">200</span></label>
-            <button
-              id="btn-raise-upgrade"
-              type="button"
-              class="btn btn-warning"
-            >
-              RAISE
-            </button>
-          </div>
-        </div>
       </div>
+      <footer class="text-center mt-3">
+        <p>
+          This project was made by Sizenando França <br />
+          https://github.com/sizenando-f/GetRichClickerGame
+        </p>
+      </footer>
     </div>
 
     <script

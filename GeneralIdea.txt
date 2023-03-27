@@ -3,3 +3,11 @@ Quando chegar em 30 pontos, vai surgir um botão que vai adicionar mais 3 ao cli
 Mas quando o valor do clique aumentar, aumentará também o valor de compra, toda vez que evoluir o clique, os pontos para compra será multiplicado por 1.8
 Quando chegar em 100 pontos vai ser liberado um minerador que dará automaticamente um ponto a cada 5 segundos, existindo opções de aumentar mineradores diminuindo o tempo de mineração, ou seja, ele dá retorno mais rápido, e terá outra opção de aumentar o poder do minerador, indo de 1 para 2, depois para 4 e assim por diante.
 Quando um minerador for comprado, seu custo duplicará, e a força da picareta terá o mesmo funcionamento do que do jogador
+//
+Bugs para corrigir
+Diminuir tempo de espera do minerador para 1 segundo (certo)
+Desabilitar botão de aumento do minerador ao ser disponibilizado (certo)
+Checagem de dinheiro montante adicionada no minerador (certo)
+//
+Implementações
+Colocar máquina de mineração que dá 50 ouros por segundo e pode ser melhorada dando o dobro de retorno
